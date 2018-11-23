@@ -347,8 +347,8 @@ class LineChart extends React.Component {
 
 LineChart.defaultProps = {
   data: [],
-  primaryColor: '#297AB1',
-  selectedColor: '#FF0000',
+  primaryColor: '#2D9CDB',
+  selectedColor: '#2D9CDB',
   height: 100,
   gap: 60,
   showEvenNumberXaxisLabel: true,
@@ -385,7 +385,7 @@ const styles = StyleSheet.create({
   guideLine: {
     position: 'absolute',
     height: '100%',
-    borderRightColor: '#e0e0e050',
+    borderRightColor: '#e0e0e0',
     borderRightWidth: 1
   },
   absolute: {

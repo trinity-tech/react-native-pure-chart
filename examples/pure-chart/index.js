@@ -38,7 +38,7 @@ PureChart.propTypes = {
   backgroundColor: PropTypes.string
 }
 PureChart.defaultProps = {
-  color: '#297AB1',
+  color: '#2D9CDB',
   height: 100,
   numberOfYAxisGuideLine: 5,
   backgroundColor: '#FFFFFF'
