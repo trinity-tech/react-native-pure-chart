@@ -36,7 +36,7 @@ class LineChart extends React.Component {
   }
 
   componentDidMount () {
-    Animated.timing(this.state.fadeAnim, { toValue: 1, easing: Easing.bounce, duration: 1000, useNativeDriver: true }).start()
+    Animated.timing(this.state.fadeAnim, { toValue: 1, easing: Easing.bounce, duration: 0, useNativeDriver: true }).start()
   }
 
   componentWillReceiveProps (nextProps) {
@@ -44,7 +44,7 @@ class LineChart extends React.Component {
       this.setState(Object.assign({
         fadeAnim: new Animated.Value(0)
       }, initData(nextProps.data, this.props.height, this.props.gap, this.props.numberOfYAxisGuideLine)), () => {
-        Animated.timing(this.state.fadeAnim, { toValue: 1, easing: Easing.bounce, duration: 1000, useNativeDriver: true }).start()
+        Animated.timing(this.state.fadeAnim, { toValue: 1, easing: Easing.bounce, duration: 0, useNativeDriver: true }).start()
       })
     }
   }
