@@ -142,7 +142,7 @@ class LineChart extends React.Component {
 
   drawPoint (index, point, seriesColor) {
     let key = 'point' + index
-    let size = 8
+    let size = 6
     let color = !seriesColor ? this.props.primaryColor : seriesColor
     if (this.state.selectedIndex === index) {
       color = this.props.selectedColor
