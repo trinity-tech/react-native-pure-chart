@@ -347,8 +347,8 @@ class LineChart extends React.Component {
 
 LineChart.defaultProps = {
   data: [],
-  primaryColor: '#2D9CDB',
-  selectedColor: '#2D9CDB',
+  primaryColor: '#56BA93',
+  selectedColor: '#56BA93',
   height: 100,
   gap: 60,
   showEvenNumberXaxisLabel: true,
